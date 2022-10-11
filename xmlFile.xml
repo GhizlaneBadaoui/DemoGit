@@ -1,0 +1,83 @@
+<?xml version ="1.0" encoding="iso-8859-1" ?>
+<projects>
+    <projet>
+        <name>Projet1</name>
+
+        <libraries>
+            <library>
+                <name>JDBC</name>
+                <version>21.3.0 </version>
+                <description> librairie 1 pour projet 1 </description>
+            </library>
+
+            <library>
+                <name>Junit</name>
+                <version>4.13.2</version>
+                <description>librairie 2 pour projet 1</description>
+            </library>
+
+            <library>
+                <name>Jersey</name>
+                <version>3.0.3</version>
+                <description>librairie 3 pour projet 1</description>
+            </library>
+        </libraries>
+        <servers>
+            <server>
+                <name> serveur de test</name>
+                <url>url serveur 1 projet 1</url>
+            </server>
+
+            <server>
+                <name>serveur d’intégration</name>
+                <url>url serveur 2 projet 1</url>
+            </server>
+
+            <server>
+                <name>serveur de production</name>
+                <url>url serveur 3 projet 1</url>
+            </server>
+        </servers>
+    </projet>
+
+    <projet>
+        <name>Projet2</name>
+
+        <libraries>
+            <library>
+                <name>JDBC</name>
+                <version>21.3.0 </version>
+                <description> librairie 1 pour projet 2 </description>
+            </library>
+
+            <library>
+                <name>Junit</name>
+                <version>4.13.2</version>
+                <description>librairie 2 pour projet 2</description>
+            </library>
+
+            <library>
+                <name>Jersey</name>
+                <version>3.0.3</version>
+                <description>librairie 3 pour projet 2</description>
+            </library>
+        </libraries>
+
+        <servers>
+            <server>
+                <name> serveur de test</name>
+                <url>url serveur 1 projet 2</url>
+            </server>
+
+            <server>
+                <name>serveur d’intégration</name>
+                <url>url serveur 2 projet 2</url>
+            </server>
+
+            <server>
+                <name>serveur de production</name>
+                <url>url serveur 3 projet 2</url>
+            </server>
+        </servers>
+    </projet>
+</projects>
